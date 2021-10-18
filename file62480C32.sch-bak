@@ -1,0 +1,473 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 624BF681
+P 2000 1750
+F 0 "J13" H 1918 1967 50  0000 C CNN
+F 1 "220V" H 1918 1876 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal" H 2000 1750 50  0001 C CNN
+F 3 "~" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 624C1295
+P 2550 1600
+F 0 "F1" V 2353 1600 50  0000 C CNN
+F 1 "3,6x10 0.5A" V 2444 1600 50  0000 C CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0033FF_L11.4mm_W3.8mm" V 2480 1600 50  0001 C CNN
+F 3 "~" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Varistor RV1
+U 1 1 624C1B6E
+P 2800 1800
+F 0 "RV1" H 2903 1846 50  0000 L CNN
+F 1 "10D561K" H 2903 1755 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm" V 2730 1800 50  0001 C CNN
+F 3 "~" H 2800 1800 50  0001 C CNN
+	1    2800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1650 2800 1600
+Connection ~ 2800 1600
+Wire Wire Line
+	2800 1600 2700 1600
+Wire Wire Line
+	2800 1950 2800 2000
+Wire Wire Line
+	2200 1750 2300 1750
+Wire Wire Line
+	2200 1850 2300 1850
+Text Label 2200 1750 0    50   ~ 0
+L
+Text Label 2200 1850 0    50   ~ 0
+N
+Wire Wire Line
+	2300 1750 2300 1600
+Wire Wire Line
+	2300 1850 2300 2000
+Wire Wire Line
+	2300 2000 2800 2000
+Wire Wire Line
+	2300 1600 2400 1600
+$Comp
+L power:Earth #PWR035
+U 1 1 624D1FB3
+P 4550 2050
+F 0 "#PWR035" H 4550 1800 50  0001 C CNN
+F 1 "Earth" H 4550 1900 50  0001 C CNN
+F 2 "" H 4550 2050 50  0001 C CNN
+F 3 "~" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 624D56F5
+P 4550 1550
+F 0 "#PWR034" H 4550 1400 50  0001 C CNN
+F 1 "+5V" H 4565 1723 50  0000 C CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LD1086DT33TR U5
+U 1 1 624D9F6F
+P 8450 1600
+F 0 "U5" H 8450 1967 50  0000 C CNN
+F 1 "LD1086DT33TR" H 8450 1876 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 8450 2100 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/ld1086.pdf" H 8450 2100 50  0001 C CNN
+	1    8450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized C10
+U 1 1 624DB83D
+P 9200 1800
+F 0 "C10" H 9318 1846 50  0000 L CNN
+F 1 "10uF" H 9318 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9238 1650 50  0001 C CNN
+F 3 "~" H 9200 1800 50  0001 C CNN
+	1    9200 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1600 8050 1600
+Wire Wire Line
+	9200 1600 9200 1650
+Wire Wire Line
+	9200 2000 9200 1950
+Wire Wire Line
+	8450 1900 8450 2000
+Connection ~ 8450 2000
+Wire Wire Line
+	8450 2000 9200 2000
+Wire Wire Line
+	8850 1600 9200 1600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 624E6F6B
+P 9650 1550
+AR Path="/624E6F6B" Ref="#PWR?"  Part="1" 
+AR Path="/62480C33/624E6F6B" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 9650 1400 50  0001 C CNN
+F 1 "+3V3" H 9750 1700 50  0000 C CNN
+F 2 "" H 9650 1550 50  0001 C CNN
+F 3 "" H 9650 1550 50  0001 C CNN
+	1    9650 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 1600
+$Comp
+L power:Earth #PWR046
+U 1 1 632E8F71
+P 8450 2000
+F 0 "#PWR046" H 8450 1750 50  0001 C CNN
+F 1 "Earth" H 8450 1850 50  0001 C CNN
+F 2 "" H 8450 2000 50  0001 C CNN
+F 3 "~" H 8450 2000 50  0001 C CNN
+	1    8450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR045
+U 1 1 632E9953
+P 7600 1550
+F 0 "#PWR045" H 7600 1400 50  0001 C CNN
+F 1 "+5V" H 7615 1723 50  0000 C CNN
+F 2 "" H 7600 1550 50  0001 C CNN
+F 3 "" H 7600 1550 50  0001 C CNN
+	1    7600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1550 7600 1600
+$Comp
+L Regulator_Linear:MIC29302WU U6
+U 1 1 632EB674
+P 3350 3200
+F 0 "U6" H 3350 3567 50  0000 C CNN
+F 1 "MIC29302WU" H 3350 3476 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 3450 2950 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/20005685a.pdf" H 3350 3200 50  0001 C CNN
+	1    3350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR032
+U 1 1 632EC611
+P 1950 3050
+F 0 "#PWR032" H 1950 2900 50  0001 C CNN
+F 1 "+5V" H 1965 3223 50  0000 C CNN
+F 2 "" H 1950 3050 50  0001 C CNN
+F 3 "" H 1950 3050 50  0001 C CNN
+	1    1950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized C13
+U 1 1 632ECCA4
+P 1950 3300
+F 0 "C13" H 2068 3346 50  0000 L CNN
+F 1 "470uF" H 2068 3255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1988 3150 50  0001 C CNN
+F 3 "~" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR033
+U 1 1 632EDDD7
+P 1950 3550
+F 0 "#PWR033" H 1950 3300 50  0001 C CNN
+F 1 "Earth" H 1950 3400 50  0001 C CNN
+F 2 "" H 1950 3550 50  0001 C CNN
+F 3 "~" H 1950 3550 50  0001 C CNN
+	1    1950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 632EF262
+P 2400 3300
+F 0 "C14" H 2515 3346 50  0000 L CNN
+F 1 "0.1uF" H 2515 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 3150 50  0001 C CNN
+F 3 "~" H 2400 3300 50  0001 C CNN
+	1    2400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR039
+U 1 1 632F506C
+P 4050 3950
+F 0 "#PWR039" H 4050 3700 50  0001 C CNN
+F 1 "Earth" H 4050 3800 50  0001 C CNN
+F 2 "" H 4050 3950 50  0001 C CNN
+F 3 "~" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3550 3350 3500
+Wire Wire Line
+	1950 3150 1950 3100
+Wire Wire Line
+	1950 3100 2400 3100
+Wire Wire Line
+	2400 3100 2400 3150
+Connection ~ 1950 3100
+Wire Wire Line
+	1950 3100 1950 3050
+$Comp
+L Device:R R33
+U 1 1 632FAA22
+P 4050 3300
+F 0 "R33" H 3900 3250 50  0000 C CNN
+F 1 "124k" H 3900 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 3300 50  0001 C CNN
+F 3 "~" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 632FB2EE
+P 4050 3700
+F 0 "R34" H 3900 3650 50  0000 C CNN
+F 1 "56k" H 3900 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3980 3700 50  0001 C CNN
+F 3 "~" H 4050 3700 50  0001 C CNN
+	1    4050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Polarized C15
+U 1 1 63300131
+P 4500 3500
+F 0 "C15" H 4618 3546 50  0000 L CNN
+F 1 "SMDCAP-470mkf - 10v" H 4618 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10" H 4538 3350 50  0001 C CNN
+F 3 "~" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 63300D28
+P 4950 3500
+F 0 "C16" H 5065 3546 50  0000 L CNN
+F 1 "0.1uF" H 5065 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 3350 50  0001 C CNN
+F 3 "~" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZV55B5V1 D8
+U 1 1 633084D4
+P 5400 3500
+F 0 "D8" V 5354 3580 50  0000 L CNN
+F 1 "BZV55B5V1" V 5445 3580 50  0000 L CNN
+F 2 "Diode_SMD:D_MiniMELF" H 5400 3325 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+4V #PWR043
+U 1 1 6330E546
+P 5400 3050
+F 0 "#PWR043" H 5400 2900 50  0001 C CNN
+F 1 "+4V" H 5415 3223 50  0000 C CNN
+F 2 "" H 5400 3050 50  0001 C CNN
+F 3 "" H 5400 3050 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3100 5400 3350
+Wire Wire Line
+	5400 3050 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	4050 3150 4050 3100
+Wire Wire Line
+	4500 3350 4500 3100
+Connection ~ 4500 3100
+Wire Wire Line
+	4500 3100 4950 3100
+Wire Wire Line
+	4950 3350 4950 3100
+Connection ~ 4950 3100
+Wire Wire Line
+	4950 3100 5400 3100
+$Comp
+L power:Earth #PWR037
+U 1 1 6331AA84
+P 2400 3550
+F 0 "#PWR037" H 2400 3300 50  0001 C CNN
+F 1 "Earth" H 2400 3400 50  0001 C CNN
+F 2 "" H 2400 3550 50  0001 C CNN
+F 3 "~" H 2400 3550 50  0001 C CNN
+	1    2400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3450 1950 3550
+$Comp
+L power:Earth #PWR041
+U 1 1 6331D126
+P 4500 3950
+F 0 "#PWR041" H 4500 3700 50  0001 C CNN
+F 1 "Earth" H 4500 3800 50  0001 C CNN
+F 2 "" H 4500 3950 50  0001 C CNN
+F 3 "~" H 4500 3950 50  0001 C CNN
+	1    4500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR042
+U 1 1 6331D4C5
+P 4950 3950
+F 0 "#PWR042" H 4950 3700 50  0001 C CNN
+F 1 "Earth" H 4950 3800 50  0001 C CNN
+F 2 "" H 4950 3950 50  0001 C CNN
+F 3 "~" H 4950 3950 50  0001 C CNN
+	1    4950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR044
+U 1 1 6331D879
+P 5400 3950
+F 0 "#PWR044" H 5400 3700 50  0001 C CNN
+F 1 "Earth" H 5400 3800 50  0001 C CNN
+F 2 "" H 5400 3950 50  0001 C CNN
+F 3 "~" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3950 5400 3650
+Wire Wire Line
+	4950 3650 4950 3950
+Wire Wire Line
+	4500 3950 4500 3650
+Wire Wire Line
+	4050 3950 4050 3850
+Wire Wire Line
+	4050 3550 4050 3500
+Wire Wire Line
+	3750 3300 3750 3500
+Wire Wire Line
+	3750 3500 4050 3500
+Connection ~ 4050 3500
+Wire Wire Line
+	4050 3500 4050 3450
+$Comp
+L power:Earth #PWR038
+U 1 1 63327822
+P 3350 3550
+F 0 "#PWR038" H 3350 3300 50  0001 C CNN
+F 1 "Earth" H 3350 3400 50  0001 C CNN
+F 2 "" H 3350 3550 50  0001 C CNN
+F 3 "~" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3450 2400 3550
+Wire Wire Line
+	2800 3300 2950 3300
+$Comp
+L Converter_ACDC:IRM-20-5 PS1
+U 1 1 61771EDE
+P 3950 1800
+F 0 "PS1" H 3950 2125 50  0000 C CNN
+F 1 "IRM-20-5" H 3950 2034 50  0000 C CNN
+F 2 "Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT" H 3950 1500 50  0001 C CNN
+F 3 "http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF" H 4350 1450 50  0001 C CNN
+	1    3950 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1600 3350 1700
+Wire Wire Line
+	3350 1700 3550 1700
+Wire Wire Line
+	3550 1900 3350 1900
+Wire Wire Line
+	3350 1900 3350 2000
+Wire Wire Line
+	4350 1900 4550 1900
+Wire Wire Line
+	4350 1700 4550 1700
+Wire Wire Line
+	2800 1600 3350 1600
+Connection ~ 2800 2000
+Wire Wire Line
+	2800 2000 3350 2000
+Wire Wire Line
+	4550 1900 4550 2050
+Wire Wire Line
+	4550 1550 4550 1700
+Wire Wire Line
+	2800 3300 2800 3100
+Wire Wire Line
+	2800 3100 2950 3100
+Wire Wire Line
+	4050 3100 4500 3100
+Wire Wire Line
+	3750 3100 4050 3100
+Connection ~ 4050 3100
+Wire Wire Line
+	2400 3100 2800 3100
+Connection ~ 2400 3100
+Connection ~ 2800 3100
+$Comp
+L Device:C_Polarized C7
+U 1 1 616B9C07
+P 9650 1800
+F 0 "C7" H 9768 1846 50  0000 L CNN
+F 1 "470uF" H 9768 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 9688 1650 50  0001 C CNN
+F 3 "~" H 9650 1800 50  0001 C CNN
+	1    9650 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2000 9650 2000
+Wire Wire Line
+	9650 2000 9650 1950
+Connection ~ 9200 2000
+Wire Wire Line
+	9200 1600 9650 1600
+Wire Wire Line
+	9650 1600 9650 1550
+Wire Wire Line
+	9650 1600 9650 1650
+Connection ~ 9650 1600
+$EndSCHEMATC

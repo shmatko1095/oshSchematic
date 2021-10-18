@@ -1,0 +1,555 @@
+.HEA
+.TIM чт, 14-жов-2021 22:13:28 +0300
+.APP "Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1"
+
+.ADD_COM C2 "22uF"
+.ADD_COM C1 "0.1uF"
+.ADD_COM U1 "ESP32-S2-WROVER-I"
+.ADD_COM R2 "10k"
+.ADD_COM R1 "10k"
+.ADD_COM U2 "CC2538_CC2592"
+.ADD_COM C6 "10uF"
+.ADD_COM R12 "33"
+.ADD_COM R13 "33"
+.ADD_COM R14 "1k5"
+.ADD_COM C3 "47pF"
+.ADD_COM C5 "47pF"
+.ADD_COM D4 "LED"
+.ADD_COM R9 "1k"
+.ADD_COM R21 "10k"
+.ADD_COM U3 "DS3231M"
+.ADD_COM R26 "10k"
+.ADD_COM R25 "10k"
+.ADD_COM TP1 "CC2538_RX"
+.ADD_COM TP2 "CC2538_TX"
+.ADD_COM J7 "DS18B20"
+.ADD_COM R16 "10k"
+.ADD_COM J6 "DS18B20"
+.ADD_COM R15 "10k"
+.ADD_COM J5 "DS18B20"
+.ADD_COM R5 "10k"
+.ADD_COM J4 "DS18B20"
+.ADD_COM R4 "10k"
+.ADD_COM J9 "TCBBA00"
+.ADD_COM R23 "10k"
+.ADD_COM R24 "10k"
+.ADD_COM J12 "ESP_JTAG"
+.ADD_COM J11 "ESP_UART"
+.ADD_COM J3 "CC2538_JTAG"
+.ADD_COM J1 "CS"
+.ADD_COM R3 "100 1/8W"
+.ADD_COM R11 "10k"
+.ADD_COM R10 "10k"
+.ADD_COM C4 "10uF"
+.ADD_COM BZ1 "KPX-G1205A"
+.ADD_COM R20 "1k"
+.ADD_COM R6 "1k"
+.ADD_COM D2 "LED"
+.ADD_COM R7 "1k"
+.ADD_COM D3 "LED"
+.ADD_COM R8 "1k"
+.ADD_COM D1 "LED"
+.ADD_COM R17 "1k"
+.ADD_COM D6 "LED"
+.ADD_COM R18 "1k"
+.ADD_COM D7 "LED"
+.ADD_COM R19 "1k"
+.ADD_COM D5 "LED"
+.ADD_COM C11 "0.1uF"
+.ADD_COM C12 "0.1uF"
+.ADD_COM BT1 "CR2032-PBN2"
+.ADD_COM R22 "47k"
+.ADD_COM D12 "PESD5V0L4UG"
+.ADD_COM Q1 "BC847"
+.ADD_COM J16 "Conn_TFT"
+.ADD_COM D15 "ESD5Z3.3T1G"
+.ADD_COM D16 "PESD5V0L4UG"
+.ADD_COM D17 "PESD5V0L4UG"
+.ADD_COM D18 "ESD5Z3.3T1G"
+.ADD_COM J8 "Heater Board"
+.ADD_COM D19 "PESD5V0L4UG"
+.ADD_COM J2 "CC2538_USB"
+.ADD_COM D11 "ESD5Z3.3T1G"
+.ADD_COM D20 "ESD5Z3.3T1G"
+.ADD_COM D22 "ESD5Z3.3T1G"
+.ADD_COM D21 "ESD5Z3.3T1G"
+.ADD_COM R27 "10k"
+.ADD_COM C8 "1uF"
+.ADD_COM J13 "220V"
+.ADD_COM F1 "3,6x10 0.5A"
+.ADD_COM RV1 "10D561K"
+.ADD_COM U5 "LD1086DT33TR"
+.ADD_COM C10 "10uF"
+.ADD_COM U6 "MIC29302WU"
+.ADD_COM C13 "470uF"
+.ADD_COM C14 "100nF"
+.ADD_COM R33 "124k"
+.ADD_COM R34 "56k"
+.ADD_COM C15 "SMDCAP-470mkf - 10v"
+.ADD_COM C16 "100nF"
+.ADD_COM D8 "BZV55B5V1"
+.ADD_COM PS1 "IRM-20-5"
+.ADD_COM C7 "470uF"
+.ADD_COM U7 "M66"
+.ADD_COM C23 "100nF"
+.ADD_COM R37 "4k7"
+.ADD_COM R39 "47k"
+.ADD_COM R55 "1k"
+.ADD_COM J10 "SIM_Card"
+.ADD_COM R45 "22R"
+.ADD_COM C18 "33pF"
+.ADD_COM C20 "100nF"
+.ADD_COM Q3 "BC847"
+.ADD_COM Q4 "BC847"
+.ADD_COM D9 "LED_NETLIGHT"
+.ADD_COM R41 "300R"
+.ADD_COM R36 "1k"
+.ADD_COM Q5 "BC847"
+.ADD_COM D10 "LED_RFTXMON"
+.ADD_COM R57 "0R"
+.ADD_COM C24 "NM"
+.ADD_COM C25 "NM"
+.ADD_COM AE1 "Antenna"
+.ADD_COM R46 "22R"
+.ADD_COM R47 "22R"
+.ADD_COM R56 "1k"
+.ADD_COM R54 "1k"
+.ADD_COM R53 "1k"
+.ADD_COM R52 "1k"
+.ADD_COM R51 "1k"
+.ADD_COM R48 "5k6"
+.ADD_COM R50 "5k6"
+.ADD_COM R49 "5k6"
+.ADD_COM R38 "4k7"
+.ADD_COM R42 "4k7"
+.ADD_COM R40 "47k"
+.ADD_COM R43 "47k"
+.ADD_COM R44 "300R"
+.ADD_COM D13 "PESD3V3L4UG"
+.ADD_COM C19 "33pF"
+.ADD_COM C21 "33pF"
+.ADD_COM C17 "33pF"
+.ADD_COM TP5 "DBG_TXD"
+.ADD_COM TP6 "DBG_RXD"
+.ADD_COM TP7 "GND"
+.ADD_COM TP10 "GND"
+.ADD_COM TP9 "AUX_RXD"
+.ADD_COM TP8 "AUX_TXD"
+.ADD_COM D24 "ESD5Z3.3T1G"
+.ADD_COM D14 "ESD5Z3.3T1G"
+.ADD_COM D23 "ESD5Z3.3T1G"
+.ADD_COM D25 "ESD5Z3.3T1G"
+
+
+.ADD_TER U1.9 "HEATER3"
+.TER     R19.1
+         J8.7
+.ADD_TER D7.2 "Net-(D7-Pad2)"
+.TER     R19.2
+.ADD_TER J8.5 "HEATER2"
+.TER     R18.1
+         U1.8
+.ADD_TER R17.1 "HEATER1"
+.TER     U1.7
+         J8.3
+.ADD_TER D2.2 "Net-(D2-Pad2)"
+.TER     R7.2
+.ADD_TER J8.8 "PUMP2"
+.TER     R8.1
+         U1.12
+.ADD_TER D3.2 "Net-(D3-Pad2)"
+.TER     R8.2
+.ADD_TER U1.10 "PUMP0"
+.TER     J8.4
+         R6.1
+.ADD_TER J8.6 "PUMP1"
+.TER     R7.1
+         U1.11
+.ADD_TER R17.2 "Net-(D5-Pad2)"
+.TER     D5.2
+.ADD_TER Q1.2 "Earth"
+.TER     D12.2
+         R24.2
+         J9.3
+         J5.3
+         U3.12
+         U3.13
+         J7.3
+         U3.11
+         J16.8
+         U3.5
+         U3.6
+         U3.7
+         U3.8
+         U3.9
+         U3.10
+         C5.2
+         D16.2
+         J16.6
+         C6.2
+         C3.2
+         D17.2
+         J4.3
+         D15.2
+         J6.3
+         D4.1
+         U1.26
+         U1.42
+         U1.43
+         C2.2
+         C1.2
+         U1.1
+         U2.1
+         U2.2
+         C23.2
+         C13.2
+         U6.3
+         C15.2
+         U7.27
+         U7.34
+         U7.36
+         U7.37
+         R34.1
+         R39.2
+         C7.2
+         D8.2
+         C16.2
+         C10.2
+         C14.2
+         U5.1
+         PS1.3
+         C18.2
+         Q3.2
+         Q4.2
+         D14.2
+         C24.2
+         C25.2
+         Q5.2
+         R40.2
+         C21.2
+         C17.2
+         C19.2
+         D13.2
+         R43.2
+         U7.41
+         U7.40
+         D23.2
+         D25.2
+         D24.2
+         TP10.1
+         TP7.1
+         R48.2
+         R50.2
+         R49.2
+         J8.1
+         C4.2
+         D18.2
+         R11.2
+         D2.1
+         D11.2
+         J2.1
+         D19.2
+         C8.1
+         D21.2
+         D6.1
+         D1.1
+         D3.1
+         D7.1
+         D5.1
+         J3.3
+         J11.6
+         J11.4
+         J12.4
+         R3.2
+         J1.1
+         C11.2
+         C12.2
+         R22.1
+         BT1.2
+         D20.2
+         D22.2
+.ADD_TER R18.2 "Net-(D6-Pad2)"
+.TER     D6.2
+.ADD_TER BT1.1 "Net-(BT1-Pad1)"
+.TER     U3.14
+.ADD_TER R37.2 "SIM_PWR"
+.TER     U1.39
+.ADD_TER U1.40 "SIM_NETLIGHT"
+.TER     R36.1
+.ADD_TER C10.1 "+3V3"
+.TER     U3.2
+         U5.2
+         C2.1
+         J8.2
+         R27.2
+         C1.1
+         J5.1
+         R5.2
+         R26.2
+         U2.3
+         J6.1
+         R15.2
+         R4.2
+         J4.1
+         R2.1
+         R25.2
+         R1.1
+         R21.1
+         R16.2
+         R10.1
+         J16.4
+         J7.1
+         C6.1
+         C7.1
+         U1.2
+.ADD_TER U1.6 "BUZZER"
+.TER     R20.2
+.ADD_TER U6.2 "+5V"
+.TER     U6.1
+         U5.3
+         BZ1.1
+         J9.1
+         R23.2
+         C13.1
+         PS1.4
+         C14.1
+.ADD_TER U2.6 "Net-(D16-Pad5)"
+.TER     D16.5
+         J3.6
+.ADD_TER BZ1.2 "Net-(BZ1-Pad2)"
+.TER     Q1.3
+.ADD_TER R20.1 "Net-(Q1-Pad1)"
+.TER     R22.2
+         Q1.1
+.ADD_TER D1.2 "Net-(D1-Pad2)"
+.TER     R6.2
+.ADD_TER R3.1 "CURRENT"
+.TER     C11.1
+         U1.5
+         R10.2
+         C4.1
+         J1.2
+         R11.1
+.ADD_TER D19.1 "ESP32_IO0"
+.TER     J11.1
+         R1.2
+         U1.3
+.ADD_TER D17.1 "/JTAG_TMS"
+.TER     U1.36
+         J12.1
+.ADD_TER U2.4 "Net-(D16-Pad1)"
+.TER     J3.2
+         D16.1
+.ADD_TER U2.5 "Net-(D16-Pad3)"
+.TER     J3.4
+         D16.3
+.ADD_TER J3.8 "Net-(D16-Pad4)"
+.TER     D16.4
+         U2.7
+.ADD_TER D12.4 "Net-(D12-Pad4)"
+.TER     R13.1
+         U2.14
+.ADD_TER D12.3 "Net-(D12-Pad3)"
+.TER     U2.13
+         R12.1
+.ADD_TER R14.1 "Net-(C5-Pad1)"
+.TER     C5.1
+         R12.2
+         J2.3
+.ADD_TER R14.2 "Net-(D12-Pad1)"
+.TER     D12.1
+         U2.21
+.ADD_TER R13.2 "Net-(C3-Pad1)"
+.TER     C3.1
+         J2.2
+.ADD_TER J11.3 "SIM_TXD"
+.TER     U1.38
+         D19.3
+         R55.1
+.ADD_TER J11.5 "SIM_RXD"
+.TER     U1.37
+         R56.1
+         D19.4
+.ADD_TER U2.23 "/CC2538_U1RXD"
+.TER     U1.21
+         TP2.1
+         R27.1
+.ADD_TER J16.11 "/LCD_CS"
+.TER     U1.28
+.ADD_TER J16.5 "/LCD_SDA"
+.TER     U1.29
+.ADD_TER J16.9 "/LCD_SCL"
+.TER     U1.30
+.ADD_TER U1.27 "/LCD_WR"
+.TER     J16.7
+.ADD_TER D17.4 "/JTAG_TDO"
+.TER     U1.34
+         J12.5
+.ADD_TER U2.12 "Net-(R9-Pad1)"
+.TER     R9.1
+.ADD_TER R9.2 "Net-(D4-Pad2)"
+.TER     D4.2
+.ADD_TER U1.23 "/LCD_RST"
+.TER     J16.12
+.ADD_TER U1.22 "/LCD_BL"
+.TER     J16.10
+.ADD_TER U1.31 "/TP_SCL"
+.TER     J16.3
+.ADD_TER U1.32 "/TP_SDA"
+.TER     J16.1
+.ADD_TER J16.2 "/TP_RST"
+.TER     U1.24
+.ADD_TER J3.9 "CC_RST"
+.TER     R21.2
+         U1.19
+         U2.32
+         D15.1
+.ADD_TER D17.5 "/JTAG_TCK"
+.TER     J12.3
+         U1.33
+.ADD_TER U1.35 "/JTAG_TDI"
+.TER     D17.3
+         J12.7
+.ADD_TER R2.2 "ESP32_EN"
+.TER     D18.1
+         U1.41
+         C8.2
+         J11.2
+         D19.5
+         J12.10
+.ADD_TER D20.1 "DS18B20_3"
+.TER     J5.2
+         R5.1
+         U1.15
+.ADD_TER R4.1 "DS18B20_1"
+.TER     U1.13
+         J4.2
+         D11.1
+.ADD_TER U1.14 "DS18B20_2"
+.TER     D21.1
+         J6.2
+         R15.1
+.ADD_TER U1.4 "PRESSURE"
+.TER     C12.1
+         J9.2
+         R23.1
+         R24.1
+.ADD_TER J7.2 "DS18B20_4"
+.TER     R16.1
+         D22.1
+         U1.16
+.ADD_TER U3.15 "RTC_SDA"
+.TER     U1.17
+         R26.1
+.ADD_TER U3.16 "RTC_SCL"
+.TER     U1.18
+         R25.1
+.ADD_TER TP1.1 "/CC2538_U1TXD"
+.TER     U2.22
+         U1.20
+.ADD_TER R42.2 "RFTXMON"
+.TER     U7.25
+.ADD_TER R44.1 "Net-(Q5-Pad3)"
+.TER     Q5.3
+.ADD_TER R42.1 "Net-(Q5-Pad1)"
+.TER     R43.1
+         Q5.1
+.ADD_TER Q4.3 "Net-(Q4-Pad3)"
+.TER     R41.1
+.ADD_TER R41.2 "Net-(D9-Pad1)"
+.TER     D9.1
+.ADD_TER U6.4 "+4V"
+.TER     C23.1
+         R33.2
+         D9.2
+         U7.43
+         C15.1
+         U7.42
+         D8.1
+         D10.2
+         C16.1
+.ADD_TER U7.16 "NETLIGHT"
+.TER     R36.2
+         R38.2
+.ADD_TER C25.1 "Net-(AE1-Pad1)"
+.TER     AE1.1
+         R57.1
+.ADD_TER U7.35 "RF_ANT"
+.TER     C24.1
+         R57.2
+.ADD_TER U7.17 "Net-(R56-Pad2)"
+.TER     R56.2
+.ADD_TER R44.2 "Net-(D10-Pad1)"
+.TER     D10.1
+.ADD_TER R45.1 "Net-(R45-Pad1)"
+.TER     U7.12
+.ADD_TER R46.1 "Net-(R46-Pad1)"
+.TER     U7.13
+.ADD_TER U7.11 "Net-(R47-Pad1)"
+.TER     R47.1
+.ADD_TER TP9.1 "Net-(R54-Pad1)"
+.TER     R54.1
+.ADD_TER U7.29 "Net-(D23-Pad1)"
+.TER     D23.1
+         R53.2
+.ADD_TER D25.1 "Net-(D25-Pad1)"
+.TER     R50.1
+         R54.2
+         U7.28
+.ADD_TER R37.1 "Net-(Q3-Pad1)"
+.TER     R39.1
+         Q3.1
+.ADD_TER Q3.3 "PWRKEY"
+.TER     U7.7
+.ADD_TER R38.1 "Net-(Q4-Pad1)"
+.TER     Q4.1
+         R40.1
+.ADD_TER C20.1 "Net-(C20-Pad1)"
+.TER     J10.5
+         U7.10
+.ADD_TER C18.1 "Net-(C18-Pad1)"
+.TER     R45.2
+         J10.2
+         D13.3
+.ADD_TER U7.38 "Net-(D24-Pad1)"
+.TER     D24.1
+         R49.1
+         R52.2
+.ADD_TER TP5.1 "Net-(R51-Pad1)"
+.TER     R51.1
+.ADD_TER R53.1 "Net-(R53-Pad1)"
+.TER     TP8.1
+.ADD_TER TP6.1 "Net-(R52-Pad1)"
+.TER     R52.1
+.ADD_TER R46.2 "Net-(C19-Pad1)"
+.TER     D13.4
+         J10.3
+         C19.1
+.ADD_TER R47.2 "Net-(C21-Pad1)"
+.TER     C21.1
+         D13.5
+         J10.7
+.ADD_TER D13.1 "Net-(C17-Pad1)"
+.TER     C20.2
+         U7.14
+         C17.1
+         J10.1
+.ADD_TER U7.39 "Net-(D14-Pad1)"
+.TER     R51.2
+         D14.1
+.ADD_TER U7.18 "Net-(R48-Pad1)"
+.TER     R48.1
+         R55.2
+.ADD_TER R33.1 "Net-(R33-Pad1)"
+.TER     R34.2
+         U6.5
+.ADD_TER PS1.2 "/Power Supply/N"
+.TER     J13.2
+         RV1.2
+.ADD_TER J13.1 "/Power Supply/L"
+.TER     F1.2
+.ADD_TER RV1.1 "Net-(F1-Pad1)"
+.TER     F1.1
+         PS1.1
+
+.END

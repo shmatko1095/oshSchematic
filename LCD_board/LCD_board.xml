@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/user/SSD/projects/heatter/Schematic/LCD_board/LCD_board.sch</source>
+    <date>чт, 14-жов-2021 22:16:45 +0300</date>
+    <tool>Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LCD_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TT130RGC17B</value>
+      <footprint>Connector_FFC-FPC:TE_1-1734839-8_1x18-1MP_P0.5mm_Horizontal</footprint>
+      <datasheet>https://lcdscreenmfg.com/wp-content/uploads/2021/04/SPEC-TT130RGC17B-V0.pdf</datasheet>
+      <libsource lib="Display_Graphic" part="TT130RGC17B" description="TT130RGC17B is a color round active matrix and touch screen with capacitance thin film transistor(TFT)liquid crystal display(LCD)that uses amorphous silicon TFT as a switching device. This TFT LCD has a 1.3inch diagonally measured active display area with (240 horizontal by 240 vertical pixels)resolution."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2034D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC847</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657</datasheet>
+      <libsource lib="Transistor_BJT" part="BC847" description="0.1A Ic, 45V Vce, NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A29A71</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>300R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2AEAB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A2F275</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A9FBCC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AA110F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ABDD87</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x06</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x06_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61AD51FF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615E1802</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615ED2B4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Graphic" part="TT130RGC17B">
+      <description>TT130RGC17B is a color round active matrix and touch screen with capacitance thin film transistor(TFT)liquid crystal display(LCD)that uses amorphous silicon TFT as a switching device. This TFT LCD has a 1.3inch diagonally measured active display area with (240 horizontal by 240 vertical pixels)resolution.</description>
+      <docs>https://lcdscreenmfg.com/wp-content/uploads/2021/04/SPEC-TT130RGC17B-V0.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TT130RGC17B</field>
+        <field name="Footprint">Connector_FFC-FPC:TE_1-1734839-8_1x18-1MP_P0.5mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="IOVCC_1.8" type="power_in"/>
+        <pin num="4" name="RESET" type="input"/>
+        <pin num="5" name="CS" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WR/A0" type="input"/>
+        <pin num="8" name="SDA" type="input"/>
+        <pin num="9" name="TE" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="TP_SCL" type="input"/>
+        <pin num="12" name="TP_SDA" type="input"/>
+        <pin num="13" name="TP_INT" type="input"/>
+        <pin num="14" name="TP_RESET" type="input"/>
+        <pin num="15" name="TP_VCC" type="power_in"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="LEDK" type="power_in"/>
+        <pin num="18" name="LEDA" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Display_Graphic">
+      <uri>/usr/share/kicad/library/Display_Graphic.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad11)">
+      <node ref="U1" pin="4"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="5" name="Earth">
+      <node ref="Q1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="18"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad3)">
+      <node ref="U1" pin="17"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad4)">
+      <node ref="U1" pin="11"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad12)">
+      <node ref="J1" pin="12"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="U1" pin="8"/>
+    </net>
+  </nets>
+</export>
